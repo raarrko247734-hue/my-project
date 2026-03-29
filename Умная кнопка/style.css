@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    padding-left: auto;
+    transition: background-color 0.4s ease;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: #222222;
+    color: black;
+    background-color: #222222;
+    color: white;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+#resetButton {
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #333333;
+    border-radius: 6px;
+}

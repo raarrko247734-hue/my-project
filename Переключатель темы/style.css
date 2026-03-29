@@ -1,0 +1,10 @@
+ body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3 s, color 0.3 s;
+ }
+
+body.dark-theme {
+    background-color: #121212;
+    color: #e0e0e0;
+}

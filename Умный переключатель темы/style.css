@@ -1,0 +1,23 @@
+body {
+    background-color: #ffffff;
+    color: #222222;
+    font-family: sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.text-blox {
+    margin: 20px;
+    font-size: 18px;
+}
+
+body.dark-theme {
+    background-color: #222222;
+    color: #f0f0f0;
+}
